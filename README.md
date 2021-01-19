@@ -17,7 +17,14 @@ ddev composer install
 
 * website front-end: https://typo3-v10.ddev.site/
 * website back-end: https://typo3-v10.ddev.site/typo3/
+* admin & system maintainer access (privileged)
   + username: `admin`
+  + password: `password`
+* advanced user (editor, non-privileged)
+  + username: `advanced`
+  + password: `password`
+* simple user (editor, reduced, non-privileged)
+  + username: `simple`
   + password: `password`
 
 ## DDEV commands
