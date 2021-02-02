@@ -121,3 +121,11 @@ renderables:
                 validators:
                   -
                     identifier: NotEmpty
+      -
+        properties:
+          saveToFileMount: '1:/user_upload/'
+          allowedMimeTypes:
+            - application/pdf
+        type: FileUpload
+        identifier: fileupload-1
+        label: Attachments
